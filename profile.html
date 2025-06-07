@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>GraphQL Dashboard</title>
+    <link rel="stylesheet" href="CSS/main.css" />
+    <script src="BackJS/jquery-3.3.1.min.js"></script>
+    <script src="BackJS/galaxy.js"></script>
+    <script src="BackJS/freaky.js"></script>
+</head>
+<body>
+    <canvas></canvas>
+    <nav>
+        <a>GraphQL</a>
+        <button onclick="logout()">Logout</button>
+    </nav>
+
+    <div id="profilePage">
+        <div class="card">
+            <h1>Profile</h1>
+            <div id="userData"></div>
+        </div>
+
+        <div class="card">
+            <h2>Audit Stats</h2>
+            <div id="auditData"></div>
+        </div>
+
+        <div class="card">
+            <h2>XP Skills</h2>
+            <div id="xpData"></div>
+        </div>
+    </div>
+
+    <div class="chart-grid">
+        <div class="chart-container">
+            <h3>XP Progress</h3>
+            <svg id="xp-chart" width="100%" height="250"></svg>
+        </div>
+
+        <div class="chart-container">
+            <h3>Audit Activity</h3>
+            <svg id="project-chart" width="100%" height="250"></svg>
+        </div>
+    </div>
+
+    <script src="JS/profile.js"></script>
+</body>
+</html>
