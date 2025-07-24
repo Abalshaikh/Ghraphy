@@ -42,7 +42,16 @@ nav a {
   color: white;
   text-decoration: none;
 }
-
+#nine{
+  background: linear-gradient(135deg, #ff5e62 0%, #ff9966 100%);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 nav button {
   background: linear-gradient(135deg, #ff5e62 0%, #ff9966 100%);
   color: white;
